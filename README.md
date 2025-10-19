@@ -17,3 +17,6 @@ These are all the external modules used in this project:
   
 # Schematic
 <img src="images/schematic.svg" alt="schematic" width="100%"/>
+
+# PCB
+<img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
