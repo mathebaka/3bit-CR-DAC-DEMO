@@ -14,3 +14,6 @@ These are all the external modules used in this project:
 
 4. [Mini Voltmeter (3-wire) module](https://www.temu.com/goods.html?_bg_fs=1&goods_id=601099579419326&sku_id=17592461540786&_x_sessn_id=xhurdah5rs&refer_page_name=bgt_order_detail&refer_page_id=10045_1760898537078_7040q3hsyi&refer_page_sn=10045&is_back=1&no_cache_id=1pw6t)
   <img src="images/voltmeter-module.webp" alt="voltmeter-module" width="200"/>
+  
+# Schematic
+<img src="images/schematic.svg" alt="schematic" width="100%"/>
