@@ -19,4 +19,8 @@ These are all the external modules used in this project:
 <img src="images/schematic.svg" alt="schematic" width="100%"/>
 
 # PCB
+no components (bare):
+<img src="images/PCB-3D-bare.png" alt="PCB-3D-bare" width="100%"/>
+
+w/ components (switches replaced with connectors):
 <img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
