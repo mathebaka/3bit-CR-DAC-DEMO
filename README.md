@@ -1,2 +1,2 @@
 # 3bit-CR-DAC-DEMO
-3bit Charge Redistribution Digital to Analog Converter Demonstration
+3bit charge redistribution digital-to-analog converter demonstration
