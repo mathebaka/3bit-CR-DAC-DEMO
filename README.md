@@ -21,7 +21,7 @@ Powers the...
 ### 3. OUTPUT: Voltmeter module
 Used to display the output voltage of the DAC
 
-## List of all Modules
+## List of All Modules
 These are all the external modules used in this project:
 1. [3S Lithium charger module with USB-C](https://www.otronic.nl/nl/3s-lithium-lader-module-met-usb-c.html)  
   <img src="images/USBC-charger.jpg" alt="3S-USBC-charger" width="300"/>
