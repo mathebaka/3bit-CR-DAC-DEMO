@@ -24,3 +24,5 @@ no components (bare):
 
 w/ components (switches replaced with connectors):
 <img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
+
+# Case
