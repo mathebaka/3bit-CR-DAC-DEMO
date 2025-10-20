@@ -16,13 +16,20 @@ These are all the external modules used in this project:
   <img src="images/voltmeter-module.webp" alt="voltmeter-module" width="200"/>
   
 # Schematic
+Schematic files:
+* [KiCad](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/KiCad%20files.zip)
+* [Multisim](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/Multisim-simulation.ms14)
 <img src="images/schematic.svg" alt="schematic" width="100%"/>
 
 # PCB
-no components (bare):
+PCB files:
+* [KiCad Project](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/KiCad%20files.zip)
+* [Gerber files](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/gerber.zip)
+
+No components (bare):
 <img src="images/PCB-3D-bare.png" alt="PCB-3D-bare" width="100%"/>
 
-w/ components (switches replaced with connectors):
+With components (switches replaced with connectors):
 <img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
 
 # Case
