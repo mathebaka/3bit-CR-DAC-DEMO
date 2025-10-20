@@ -1,7 +1,26 @@
 # 3bit-CR-DAC-DEMO
 3bit charge redistribution digital-to-analog converter demonstration
 
-# Modules
+# External Modules
+## I/O's
+### 1. INPUT: +10.8V DC
+Source: 3 Li-on 18650 batteries with USB-C charging (BMS + charging module)  
+
+Powers the...
+* OP-AMP Buffer -> needs headroom to be able to buffer FSR correctely, +6V (about 1V of headroom) should be enough according to simulation and testing
+* Voltmeter module -> low input voltages will cause higher innacuracy and considerably dimmer display
+
+## 2. INPUT: +5V DC
+Source: Buck converter -> steps down voltage from batteries (10.8V) to a stable 5V  
+
+Powers the...
+* DAC input rails
+* LED's to indicate the ON/OFF state of each bit/input node
+* Three 7-segment displays for visualising the input code
+
+## 3. OUTPUT: Voltmeter module
+Used to display the output voltage of the DAC
+
 These are all the external modules used in this project:
 1. [3S Lithium charger module with USB-C](https://www.otronic.nl/nl/3s-lithium-lader-module-met-usb-c.html)  
   <img src="images/USBC-charger.jpg" alt="3S-USBC-charger" width="300"/>
