@@ -1,7 +1,7 @@
 # 3bit-CR-DAC-DEMO
 3bit charge redistribution digital-to-analog converter demonstration; battery-powered and rechargarable.
 
-# R02 Updates
+# R02 Updates Checklist
 **Power Supply**:
 - [ ] Scrapped +10.6V source → everything on the board is powered by 5V now
 - [ ] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
@@ -17,7 +17,7 @@
 - [ ] 7-segment drive resistors: THT → SMD
 
 **PCB**:
-New PCB design required to accommodate new changes
+- [ ] New PCB design required to accommodate new changes
 
 # External Modules
 ## I/O's
