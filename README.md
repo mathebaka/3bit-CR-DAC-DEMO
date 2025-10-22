@@ -1,5 +1,5 @@
 # 3bit-CR-DAC-DEMO
-3bit charge redistribution digital-to-analog converter demonstration
+3bit charge redistribution digital-to-analog converter demonstration. Battery-powered and rechargarable
 
 # External Modules
 ## I/O's
