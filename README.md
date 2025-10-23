@@ -20,7 +20,7 @@
 
 **Components**:
 - [ ] LM358 → ..... (rail-to-rail)
-- [ ] 7-segment drive resistors: THT → SMD
+- [ ] 7-segment driver resistors: THT → SMD
 
 **PCB**:
 - [ ] New PCB design required to accommodate new changes
