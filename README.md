@@ -1,5 +1,11 @@
 # 3bit-CR-DAC-DEMO
-3bit charge redistribution digital-to-analog converter demonstration; battery-powered and rechargarable.
+3bit charge redistribution digital-to-analog converter demonstration.
+  
+**Features**:
+* Displays...
+  * Input (binary)
+  * Output (analog) with 2 decimal places
+* battery-powered and rechargarable
 
 # R02 Checklist
 **Power Supply**:
