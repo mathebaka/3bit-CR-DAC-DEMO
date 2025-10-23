@@ -9,18 +9,20 @@
 
 # R02 Checklist
 **Power Supply**:
+Lower complexity + More compact
 - [ ] Scrapped +10.6V source → everything on the board is powered by 5V now
 - [ ] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
 **External Modules**:
+2/4 modules scrapped + remaining 2 simplified
 - [ ] Voltmeter module → in-board voltmeter [own design w/ SMD components]
 - [ ] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
 - [ ] 3s BMS → 1s BMS
 - [ ] 3s USB-C charger → 1s USB-C charger
 
 **Components**:
-- [ ] LM358 → ..... (rail-to-rail)
-- [ ] 7-segment driver resistors: THT → SMD
+- [ ] OP AMP change due to single +5V supply: LM358 → ..... (rail-to-rail)
+- [ ] More compact + get into SMD: 7-segment driver resistors: THT → SMD
 
 **PCB**:
 - [ ] New PCB design required to accommodate new changes
