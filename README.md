@@ -1,4 +1,4 @@
-# 3bit CR-DAC DEMO
+# Abstract
 3bit charge redistribution digital-to-analog converter demonstration.
   
 **Features**:
