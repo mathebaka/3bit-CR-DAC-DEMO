@@ -21,7 +21,7 @@ Lower complexity + More compact
 - [ ] 3s USB-C charger → 1s USB-C charger
 
 **Components**:
-- [ ] OP AMP change due to single +5V supply: LM358 → ..... (rail-to-rail)
+- [ ] NEEDED? OP AMP change due to single +5V supply: LM358 → ..... (rail-to-rail)
 - [ ] More compact + get into SMD: 7-segment driver resistors: THT → SMD
 
 **PCB**:
