@@ -7,10 +7,21 @@
   * analog output (X.XX Volts)
 * battery-powered and rechargarable
 
+**Power**  
+Current Consumption:
+* Node LEDs: 3 x 10mA = 30mA
+* 7-segment - INPUT: 3 x 6 x 10mA = 180mA
+* 7-segment - OUTPUT: 3 x 7 x 10mA = 210mA
+* TOTAL: 420mA
+
+Source Voltage: 5V
+
+Max Power: 5V * 420mA = 2.1W
+
 # R02 Checklist
 **Power Supply**:
 Lower complexity + More compact
-- [ ] Scrapped +10.6V source → everything on the board is powered by 5V now
+- [X] Scrapped +10.6V source → everything on the board is powered by 5V now
 - [ ] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
 **External Modules**:
@@ -21,8 +32,8 @@ Lower complexity + More compact
 - [ ] 3s USB-C charger → 1s USB-C charger
 
 **Components**:
-- [ ] NEEDED? OP AMP change due to single +5V supply: LM358 → ..... (rail-to-rail)
-- [ ] More compact + get into SMD: 7-segment driver resistors: THT → SMD
+- [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
+- [X] More compact + get into SMD: 7-segment driver resistors: THT → SMD
 
 **PCB**:
 - [ ] New PCB design required to accommodate new changes
