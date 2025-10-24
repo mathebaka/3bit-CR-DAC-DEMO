@@ -2,9 +2,9 @@
 3bit charge redistribution digital-to-analog converter demonstration.
   
 **Features**:
-* Displays...
-  * Input (binary)
-  * Output (analog) with 2 decimal places
+* displays...
+  * binary input (XXX)
+  * analog output (X.XX Volts)
 * battery-powered and rechargarable
 
 # R02 Checklist
