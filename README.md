@@ -22,7 +22,7 @@ Max Power: 5V * 420mA = 2.1W
 **Power Supply**:
 Lower complexity + More compact
 - [X] Scrapped +10.6V source → everything on the board is powered by 5V now
-- [ ] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
+- [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
 **External Modules**:
 2/4 modules scrapped + remaining 2 simplified
