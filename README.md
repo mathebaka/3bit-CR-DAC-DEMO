@@ -16,7 +16,7 @@ MAX Current Consumption (neglecting neglegible current from ICs):
 
 Source Voltage: 5V
 
-Max Power: 5V * 420mA = 2.1W
+Max Power: 5V * 430mA = 2.15W
 
 # R02 Checklist
 **Power Supply**:
