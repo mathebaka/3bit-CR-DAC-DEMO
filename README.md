@@ -1,5 +1,5 @@
 # Abstract
-3bit charge redistribution digital-to-analog converter demonstration.
+3bit charge redistribution digital-to-analog converter demonstration. Uses mechanical switches to manually change the digital input and LED displays to show the input and output.
   
 **Features**:
 * displays...
