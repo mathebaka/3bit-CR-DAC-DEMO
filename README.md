@@ -33,7 +33,7 @@ Lower complexity + More compact
 
 **Components**:
 - [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
-- [X] More compact + get into SMD: 7-segment driver resistors: THT → SMD
+- [X] THT → SMD for all components except DAC capacitors (for demonstration purposes)
 
 **PCB**:
 - [ ] New PCB design required to accommodate new changes
