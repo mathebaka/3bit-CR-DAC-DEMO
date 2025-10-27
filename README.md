@@ -7,7 +7,7 @@
   * analog output (X.XX Volts)
 * battery-powered and rechargarable
 
-**Power**  
+**Power**:  
 Current Consumption:
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 3 x 6 x 10mA = 180mA
