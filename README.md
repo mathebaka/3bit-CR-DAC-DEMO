@@ -8,7 +8,7 @@
 * battery-powered and rechargarable
 
 **Power**:  
-Current Consumption:
+MAX Current Consumption (neglecting neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 3 x 6 x 10mA = 180mA
 * 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
