@@ -20,11 +20,7 @@ Vin = 3.6V (nominal battery voltage)
  430mA * 5V = 3.6V * I_battery * 0.9
 => I_battery = 663.58mA
 Total battery capacity: 2500mAh
-=> Time with 1 full charge: 3.8h 
-
-
-
-430mA at 5V → 
+=> Time with 1 full charge: 3.8h  
 
 # R02 Checklist
 **Power Supply**:
