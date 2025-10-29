@@ -7,13 +7,6 @@ LED displays to show the input and output.
 * LED displays showing binary input code and output.
 * Battery-powered and rechargarable through USB-C
 
-**Current Consumption**:  
-MAX Current Consumption (neglecting neglegible current from ICs):
-* Node LEDs: 3 x 10mA = 30mA
-* 7-segment - INPUT: 3 x 6 x 10mA = 180mA
-* 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
-* TOTAL: 430mA
-
 Assuming 90% efficiency from boost converter: Pout = Pin*0.9
 Vin = 3.6V (nominal battery voltage)
 
@@ -27,6 +20,14 @@ Total battery capacity: 2500mAh
 Lower complexity + More compact
 - [X] Scrapped +10.6V source → everything on the board is powered by 5V now
 - [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
+
+** Power **
+**Current Consumption**:  
+MAX Current Consumption (neglecting neglegible current from ICs):
+* Node LEDs: 3 x 10mA = 30mA
+* 7-segment - INPUT: 3 x 6 x 10mA = 180mA
+* 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
+* TOTAL: 430mA
 
 **External Modules**:
 2/4 modules scrapped + remaining 2 simplified
