@@ -2,10 +2,10 @@
 3bit charge redistribution digital-to-analog converter demonstration. Uses mechanical switches to manually change the digital input and LED displays to show the input and output.
   
 **Features**:
-* displays...
+* Displays...
   * binary input (XXX)
   * analog output (X.XX Volts)
-* battery-powered and rechargarable
+* Battery-powered and rechargarable through USB-C
 
 **Power**:  
 MAX Current Consumption (neglecting neglegible current from ICs):
