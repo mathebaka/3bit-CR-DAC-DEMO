@@ -13,7 +13,21 @@ Lower complexity + More compact
 - [X] Scrapped +10.6V source → everything on the board is powered by 5V now
 - [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
-** Power **
+**External Modules**:
+2/4 modules scrapped + remaining 2 simplified
+- [ ] Voltmeter module → in-board voltmeter [own design w/ SMD components]
+- [ ] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
+- [ ] 3s BMS → 1s BMS
+- [ ] 3s USB-C charger → 1s USB-C charger
+
+**Components**:
+- [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
+- [X] THT → SMD for all components except DAC capacitors (for demonstration purposes)
+
+**PCB**:
+- [ ] New PCB design required to accommodate new changes
+
+# Power
 **Current Consumption**:  
 MAX Current Consumption (neglecting neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
@@ -28,20 +42,6 @@ MAX Current Consumption (neglecting neglegible current from ICs):
 => I_battery = 663.58mA  
 Total battery capacity: 2500mAh  
 => Time with 1 full charge = 663.58mA * 2500mAh = 3.8h  
-
-**External Modules**:
-2/4 modules scrapped + remaining 2 simplified
-- [ ] Voltmeter module → in-board voltmeter [own design w/ SMD components]
-- [ ] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
-- [ ] 3s BMS → 1s BMS
-- [ ] 3s USB-C charger → 1s USB-C charger
-
-**Components**:
-- [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
-- [X] THT → SMD for all components except DAC capacitors (for demonstration purposes)
-
-**PCB**:
-- [ ] New PCB design required to accommodate new changes
 
 # External Modules
 ## I/O's
