@@ -4,21 +4,27 @@ Uses mechanical switches to manually change the digital input code.
 LED displays to show the input and output.
   
 **Features**:
-* Displays...
-  * binary input (XXX)
-  * analog output (X.XX Volts)
+* LED displays showing binary input code and output.
 * Battery-powered and rechargarable through USB-C
 
-**Power**:  
+**Current Consumption**:  
 MAX Current Consumption (neglecting neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 3 x 6 x 10mA = 180mA
 * 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
 * TOTAL: 430mA
 
-Source Voltage: 5V
+Assuming 90% efficiency from boost converter: Pout = Pin*0.9
+Vin = 3.6V (nominal battery voltage)
 
-Max Power: 5V * 430mA = 2.15W
+ 430mA * 5V = 3.6V * I_battery * 0.9
+=> I_battery = 663.58mA
+Total battery capacity: 2500mAh
+=> Time with 1 full charge: 3.8h 
+
+
+
+430mA at 5V → 
 
 # R02 Checklist
 **Power Supply**:
@@ -43,7 +49,7 @@ Lower complexity + More compact
 # External Modules
 ## I/O's
 ### 1. INPUT: +10.8V DC
-Source: 3 Li-on 18650 batteries with USB-C charging (BMS + charging module)  
+Source: 3 [Li-on 18650](https://www.nkon.nl/lithplus-l1865-2-5p30-2500mah-20a-reclaimed.html) batteries with USB-C charging (BMS + charging module)  
 
 Powers the...
 * OP-AMP Buffer -> needs headroom to be able to buffer FSR correctely, +6V (about 1V of headroom) should be enough according to simulation and testing
