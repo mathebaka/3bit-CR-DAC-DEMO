@@ -5,15 +5,7 @@ LED displays to show the input and output.
   
 **Features**:
 * LED displays showing binary input code and output.
-* Battery-powered and rechargarable through USB-C
-
-Assuming 90% efficiency from boost converter: Pout = Pin*0.9
-Vin = 3.6V (nominal battery voltage)
-
- 430mA * 5V = 3.6V * I_battery * 0.9
-=> I_battery = 663.58mA
-Total battery capacity: 2500mAh
-=> Time with 1 full charge: 3.8h  
+* Battery-powered and rechargarable through USB-C  
 
 # R02 Checklist
 **Power Supply**:
@@ -27,7 +19,15 @@ MAX Current Consumption (neglecting neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 3 x 6 x 10mA = 180mA
 * 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
-* TOTAL: 430mA
+* TOTAL: 430mA  
+
+  Assuming 90% efficiency from boost converter: Pout = Pin*0.9  
+  Vin = 3.6V (nominal battery voltage)
+
+ 430mA * 5V = 3.6V * I_battery * 0.9  
+=> I_battery = 663.58mA  
+Total battery capacity: 2500mAh  
+=> Time with 1 full charge: 3.8h  
 
 **External Modules**:
 2/4 modules scrapped + remaining 2 simplified
