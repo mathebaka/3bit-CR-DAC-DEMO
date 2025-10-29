@@ -27,7 +27,7 @@ MAX Current Consumption (neglecting neglegible current from ICs):
  430mA * 5V = 3.6V * I_battery * 0.9  
 => I_battery = 663.58mA  
 Total battery capacity: 2500mAh  
-=> Time with 1 full charge: 3.8h  
+=> Time with 1 full charge = 663.58mA * 2500mAh = 3.8h  
 
 **External Modules**:
 2/4 modules scrapped + remaining 2 simplified
