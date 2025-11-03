@@ -1,4 +1,4 @@
-# Brief
+# Description
 3bit charge redistribution digital-to-analog converter demonstration.  
 Uses mechanical switches to manually change the digital input code.  
 LED displays to show the input and output.
