@@ -31,17 +31,17 @@ Lower complexity + More compact
 **Current Consumption**:  
 MAX Current Consumption (ignoring neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
-* 7-segment - INPUT: 3 x 6 x 10mA = 180mA
-* 7-segment - OUTPUT: 3 x 7 x 10mA + 10mA from DP = 220mA
-* TOTAL: 430mA  
+* 7-segment - INPUT: 6 x 3 x 8mA = 144mA
+* 7-segment - OUTPUT: 6 x 3 x 8mA + 8mA from DP = 152mA
+* TOTAL: 326mA  
 
   Assuming 90% efficiency from boost converter: Pout = Pin*0.9  
   Vin = 3.6V (nominal battery voltage)
 
- 430mA * 5V = 3.6V * I_battery * 0.9  
-=> I_battery = 663.58mA  
+ 326mA * 5V = 3.6V * I_battery * 0.9  
+=> I_battery = 503.1mA  
 Total battery capacity: 2500mAh  
-=> Time with 1 full charge = 663.58mA * 2500mAh = 3.8h  
+=> Time with 1 full charge = 2500mAh / 503.1mA = 4.97h ≈ 5h  
 
 # External Modules
 ## I/O's
