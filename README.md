@@ -15,8 +15,8 @@ Lower complexity + More compact
 
 **External Modules**:
 2/4 modules scrapped + remaining 2 simplified
-- [ ] Voltmeter module → in-board voltmeter [own design w/ SMD components]
-- [ ] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
+- [X] Voltmeter module → in-board voltmeter [own design w/ SMD components]
+- [X] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
 - [ ] 3s BMS → 1s BMS
 - [ ] 3s USB-C charger → 1s USB-C charger
 
