@@ -14,11 +14,10 @@ Lower complexity + More compact
 - [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
 **External Modules**:
-2/4 modules scrapped + remaining 2 simplified
+3 external modules → 1 external module
 - [X] Voltmeter module → in-board voltmeter [own design w/ SMD components]
 - [X] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
-- [ ] 3s BMS → 1s BMS
-- [ ] 3s USB-C charger → 1s USB-C charger
+- [ ] 3s BMS & 3s USB-C charger → 1s USB-C charger with protection
 
 **Components**:
 - [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
