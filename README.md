@@ -30,6 +30,11 @@ Lower complexity + More compact
 - [ ] Round corners
 - [ ] More easter eggs
 
+**README**:
+- [ ] Schematic
+- [ ] PCB
+- [ ] BOMs
+
 # Current Consumptions
 MAX Current Consumption (ignoring neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
