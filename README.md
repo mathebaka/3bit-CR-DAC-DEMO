@@ -57,10 +57,6 @@ Centered around the [ICL7107](https://www.analog.com/media/en/technical-document
 # External Modules
 Only one external module was used in release 2. 
 ## Li-ion Charger w/ Protection
-
-<img width="1500" height="1500" alt="image" style="width:50%" src="https://github.com/user-attachments/assets/9e2c4fdd-06dc-46b1-b8ac-827cfa8e712d" />
-TP4056 Micro-USB Li-ion charger 1A with Li-ion protection circuit ([link](https://www.tinytronics.nl/en/power/bms-and-chargers/li-ion-and-li-po/with-protection-circuit/tp4056-micro-usb-li-ion-charger-1a-with-li-ion-protection-circuit))
-
 ### Specifications:
 * Charging current: 1A (maximum)
 * Maximum charging voltage: 4.2V (1.5% accuracy)
@@ -72,6 +68,9 @@ TP4056 Micro-USB Li-ion charger 1A with Li-ion protection circuit ([link](https:
 * under-discharge: <2.5V (too low voltage)
 * Short-circuit?
 * No temperature monitoring
+  
+<img width="1500" height="1500" alt="image" style="width:50%" src="https://github.com/user-attachments/assets/9e2c4fdd-06dc-46b1-b8ac-827cfa8e712d" />
+TP4056 Micro-USB Li-ion charger 1A with Li-ion protection circuit ([link](https://www.tinytronics.nl/en/power/bms-and-chargers/li-ion-and-li-po/with-protection-circuit/tp4056-micro-usb-li-ion-charger-1a-with-li-ion-protection-circuit))
 
 # Schematic
 Schematic files:
