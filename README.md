@@ -30,29 +30,37 @@ Lower complexity + More compact
 - [ ] Round corners
 - [ ] More easter eggs
 
-# Power
-**Current Consumption**:  
+# Current Consumptions
 MAX Current Consumption (ignoring neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 6 x 3 x 8mA = 144mA
 * 7-segment - OUTPUT: 6 x 3 x 8mA + 8mA from DP = 152mA
 * TOTAL: 326mA  
 
-  Assuming 90% efficiency from boost converter: Pout = Pin*0.9  
-  Vin = 3.6V (nominal battery voltage)
+Assuming 90% efficiency from boost converter → Pout = Pin*0.9  
+Vin → Nominal battery voltage = 3.6V  
+  
+Pout = Pin * 0.9  
+326mA * 5V = 3.6V * I_battery * 0.9  
+→ I_battery = 503.1mA  
 
- 326mA * 5V = 3.6V * I_battery * 0.9  
-=> I_battery = 503.1mA  
 Total battery capacity: 2500mAh  
 => Time with 1 full charge = 2500mAh / 503.1mA = 4.97h ≈ 5h  
 
 # Internal Modules
 Internal modules are sub-circuits within the PCB.
 ## Boost Converter 3.6V→5V
-
+The TPS61322A IC was used in this module, the design is based off the second example in the [data sheet](https://www.ti.com/lit/ds/symlink/tps61322.pdf).
+<img width="441" height="249" alt="{655755C6-4801-419E-B077-00EC6503CD4F}" src="https://github.com/user-attachments/assets/f562e5fe-b365-44eb-802b-61c11d2717c7" />  
+* L1 = 2.2μH
+* C1 = 10μF || 10μF || 10μF = 30μF
+* D1: ZLLS410TA
+* R1 = 5 Ohms
+* C2 = 120pF
 
 ## Voltmeter Module
-Centered around the [ICL7107](https://www.analog.com/media/en/technical-documentation/data-sheets/icl7106-icl7107.pdf) chip, which is a dual-slope ADC with built-in 7-segment LED display driver circuitry. The circuit I built is the first example in their data sheet, the only difference is the added voltage divider for converting the DACs output to the max allowed input of the ICL7107 of 200mV; the specific values were chosen in order to main COUNT=500 at 5V, and Vref=100mV (from data sheet example).
+Centered around the [ICL7107](https://www.renesas.com/en/document/dst/icl7106-icl7107-icl7107s-datasheet?srsltid=AfmBOoq9oAzdzCN0QF71E_OcAmB2YEBGpXoNf32Zm5NzRzv7xGBHOHWO) chip, which is a dual-slope ADC with built-in 7-segment LED display driver circuitry. The circuit I built is the first example in their data sheet, the only difference is the added voltage divider for converting the DACs output to the max allowed input of the ICL7107 of 200mV; the specific values were chosen in order to main COUNT=500 at 5V, and Vref=100mV (from data sheet example).
+<img width="377" height="456" alt="{ABEDFEF4-F0E7-4633-8FFC-4D323BDB8050}" src="https://github.com/user-attachments/assets/0285defa-6cff-44cd-a6e6-0228954590f3" />
 
 # External Modules
 Only one external module was used in release 2. 
