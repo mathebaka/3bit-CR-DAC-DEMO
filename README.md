@@ -27,8 +27,8 @@ Lower complexity + More compact
 - [X] New PCB design required to accommodate new changes
 
 **FINAL CHANGES**:
-- [ ] Round corners
-- [ ] More easter eggs
+- [X] Round corners
+- [X] More easter eggs
 
 **README**:
 - [ ] Schematic
