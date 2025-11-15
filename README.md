@@ -5,7 +5,7 @@ LED displays to show the input and output.
   
 **Features**:
 * LED displays showing binary input code and output.
-* Battery-powered and rechargarable through USB-C  
+* Battery-powered and rechargarable through micro-USB 
 
 # R02 Checklist
 **Power Supply**:
