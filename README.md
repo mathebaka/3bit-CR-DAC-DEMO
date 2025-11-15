@@ -5,7 +5,7 @@ LED displays to show the input and output.
   
 **Features**:
 * LED displays showing binary input code and output.
-* Battery-powered and rechargarable through micro-USB 
+* Battery-powered (1 18650 Li-ion) and rechargarable through micro-USB 
 
 # R02 Checklist
 **Power Supply**:
@@ -31,8 +31,6 @@ Lower complexity + More compact
 - [X] More easter eggs
 
 **README**:
-- [ ] Schematic
-- [ ] PCB
 - [ ] BOMs
 
 # Current Consumption
