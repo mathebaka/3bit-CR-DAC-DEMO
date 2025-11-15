@@ -35,7 +35,7 @@ Lower complexity + More compact
 - [ ] PCB
 - [ ] BOMs
 
-# Current Consumptions
+# Current Consumption
 MAX Current Consumption (ignoring neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
 * 7-segment - INPUT: 6 x 3 x 8mA = 144mA
@@ -101,5 +101,3 @@ No components (bare):
 
 With components (switches replaced with connectors):
 <img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
-
-# Case
