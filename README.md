@@ -65,7 +65,7 @@ Schematic files [OUTDATED / R01]:
 <img src="images/schematic.svg" alt="schematic.svg" width="100%"/>
 
 # PCB
-PCB files:
+PCB files (OUTDATED):
 * [KiCad Project](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/KiCad%20files.zip)
 * [Gerber files](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/gerber.zip)
 
