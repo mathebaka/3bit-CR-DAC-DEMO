@@ -90,7 +90,7 @@ Schematic files:
 * [KiCad](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/KiCad%20files.zip)
 * [Multisim](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/Multisim-simulation.ms14)
 
-
+<img src="images/schematic.svg" alt="schematic.svg" width="100%"/>
 
 # PCB
 PCB files:
@@ -98,7 +98,16 @@ PCB files:
 * [Gerber files](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/gerber.zip)
 
 No components (bare):
-<img src="images/PCB-3D-bare.png" alt="PCB-3D-bare" width="100%"/>
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/f5168310-4c8c-40a2-a52f-53df1cfedfbb" />
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/831c99b5-f517-4fc5-975a-67acaf3a03eb" />
+
 
 With components (switches replaced with connectors):
-<img src="images/PCB-3D.png" alt="PCB-3D" width="100%"/>
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/c1541ab6-e915-4854-85ff-e3ef014241fb" />
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/fb85ae90-bd97-434f-8109-057d4119db92" />
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/69e6727d-d5f7-4ba2-9674-97591c3d667c" />
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/7c1c55af-763a-47f0-babd-849db5975060" />
+<img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/796905c3-0d0c-4d93-8352-2c2c869951dd" />
+
+
+
