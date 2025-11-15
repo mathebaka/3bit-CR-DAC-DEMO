@@ -7,32 +7,6 @@ LED displays to show the input and output.
 * LED displays showing binary input code and output.
 * Battery-powered (1 18650 Li-ion) and rechargarable through micro-USB 
 
-# R02 Checklist
-**Power Supply**:
-Lower complexity + More compact
-- [X] Scrapped +10.6V source → everything on the board is powered by 5V now
-- [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
-
-**External Modules**:
-3 external modules → 1 external module
-- [X] Voltmeter module → in-board voltmeter [own design w/ SMD components]
-- [X] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
-- [X] 3s BMS & 3s USB-C charger → 1s USB-C charger with protection
-
-**Components**:
-- [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
-- [X] THT → SMD for all components except DAC capacitors (for demonstration purposes)
-
-**PCB**:
-- [X] New PCB design required to accommodate new changes
-
-**FINAL CHANGES**:
-- [X] Round corners
-- [X] More easter eggs
-
-**README**:
-- [ ] BOMs
-
 # Current Consumption
 MAX Current Consumption (ignoring neglegible current from ICs):
 * Node LEDs: 3 x 10mA = 30mA
@@ -107,5 +81,29 @@ With components (switches replaced with connectors):
 <img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/7c1c55af-763a-47f0-babd-849db5975060" />
 <img width="1724" height="930" alt="image" src="https://github.com/user-attachments/assets/796905c3-0d0c-4d93-8352-2c2c869951dd" />
 
+# R02 Checklist
+**Power Supply**:
+Lower complexity + More compact
+- [X] Scrapped +10.6V source → everything on the board is powered by 5V now
+- [X] 3 Li-ion 18650 batteries → 1 Li-ion 18650 battery
 
+**External Modules**:
+3 external modules → 1 external module
+- [X] Voltmeter module → in-board voltmeter [own design w/ SMD components]
+- [X] Buck-converter module → in-board boost-converter (3.6V to 5V) [own design w/ SMD components]
+- [X] 3s BMS & 3s USB-C charger → 1s USB-C charger with protection
+
+**Components**:
+- [X] LM358 → MCP6001 rail-to-rail input/output (RRIO)
+- [X] THT → SMD for all components except DAC capacitors (for demonstration purposes)
+
+**PCB**:
+- [X] New PCB design required to accommodate new changes
+
+**FINAL CHANGES**:
+- [X] Round corners
+- [X] More easter eggs
+
+**README**:
+- [ ] BOMs
 
