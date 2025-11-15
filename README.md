@@ -89,7 +89,8 @@ TP4056 Micro-USB Li-ion charger 1A with Li-ion protection circuit ([link](https:
 Schematic files:
 * [KiCad](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/KiCad%20files.zip)
 * [Multisim](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/Multisim-simulation.ms14)
-<img src="images/schematic.svg" alt="schematic" width="100%"/>
+
+
 
 # PCB
 PCB files:
