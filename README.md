@@ -4,8 +4,13 @@ Uses mechanical switches to manually change the digital input code.
 LED displays to show the input and output.
   
 **Features**:
-* LED displays showing binary input code and output.
-* Battery-powered (1 18650 Li-ion) and rechargarable through micro-USB 
+* Mechanical switches for manually changing the digital input code, resetting the DAC and turning off the device
+* LED displays to show the digital input and analog output
+* Battery-powered (one 18650 li-ion cell) and rechargeable (with over/under-discharge protection) through micro-USB (~5h on a single charge)
+* The output of the voltmeter module (analog output) can be tuned using the trimmer potentiometer, allowing for:
+  * Better accuracy
+  * Option to change the displayed full-scale output of the DAC for demonstrative purposes
+* Mounting holes for a small stand (easier to handle and use)
 
 # Current Consumption
 MAX Current Consumption (ignoring neglegible current from ICs):
