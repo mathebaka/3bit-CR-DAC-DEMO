@@ -107,7 +107,7 @@ Lower complexity + More compact
 
 **FINAL CHANGES**:
 - [X] Round corners
-- [X] More easter eggs
+- [X] Logo on B-side
 
 **README**:
 - [X] BOMs
