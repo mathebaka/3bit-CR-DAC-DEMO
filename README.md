@@ -110,5 +110,5 @@ Lower complexity + More compact
 - [X] More easter eggs
 
 **README**:
-- [ ] BOMs
+- [X] BOMs
 
