@@ -85,6 +85,42 @@ With components:
 
 PS: Switches 3D model pins are not the same as the ones from the actual switches used. The ones used in reality aligns with the header pin footprint.
 
+# BOMs
+You can find a PDF of the [BOMs](https://github.com/mathebaka/3bit-CR-DAC-DEMO/blob/main/BOMs.pdf) in the project folder, here is a table showing the same information:
+| Side (T/B) | Item | Quantity | Value | Package |
+|---|---|---:|---|---|
+| T | Slide switch | 5 | - | - |
+|  | Red LED | 3 | - | THT |
+|  | Capacitor (Ceramic) | 8 | 1μF | THT |
+|  | 7-segment LED display | 6 | - | THT |
+|  | MCP6001 - rail-to-rail OP Amp | 1 | - | SOT-23-5 |
+|  | Potentiometer | 1 | 5kΩ | THT |
+|  | ICL7107CPL - ADC w/ LED driver | 1 | - | THT |
+|  | 1s 18650 Li-ion charging module w/ protection | 1 | - | THT |
+|  | Resistor (Thick Film) | 1 | 1MΩ | 1206 |
+|  | ... | 1 | 22kΩ | 1206 |
+| B | Stand-off + nut | 4 | M3 | - |
+|  | 18650 Li-ion battery holder | 1 | - | SMD |
+|  | 18650 Li-ion battery cell | 1 | - | - |
+|  | TPS613222A - 5V boost converter | 1 | - | SOT-23-5 |
+|  | Inductor | 1 | 2.2μH | SMD |
+|  | ZLLS410TA - Diode | 1 | - | SOD323 |
+|  | ICL7660 - Charge pump (converts +5V → -5V) | 1 | - | SOIC-8 |
+|  | Capacitor (Electrolytic) | 2 | 100μF | SMD |
+|  | Capacitor (Ceramic) | 1 | 120μF | 1206 |
+|  | ... | 3 | 10μF | 0201 |
+|  | ... | 1 | 100pF | 1206 |
+|  | ... | 1 | 100nF | 1206 |
+|  | ... | 1 | 470nF | 1206 |
+|  | ... | 1 | 220nF | 1206 |
+|  | ... | 1 | 10nF | 1206 |
+|  | Resistor (Thick Film) | 19 | 470Ω | 1206 |
+|  | ... | 3 | 330Ω | 1206 |
+|  | ... | 1 | 100kΩ | 1206 |
+|  | ... | 1 | 20kΩ | 1206 |
+|  | ... | 1 | 390Ω | 1206 |
+|  | ... | 1 | 47kΩ | 1206 |
+
 # R02 Checklist
 **Power Supply**:
 Lower complexity + More compact
@@ -110,4 +146,3 @@ Lower complexity + More compact
 
 **README**:
 - [X] BOMs
-
