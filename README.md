@@ -10,7 +10,7 @@
 * The output of the voltmeter module (analog output) can be tuned using the trimmer potentiometer, allowing for:
   * Better accuracy
   * Option to change the displayed full-scale output of the DAC for demonstrative purposes
-* Mounting holes for a small stand (easier to handle and use)
+* Mounting holes for stand-offs (easier to handle and use)
 
 # Current Consumption
 MAX Current Consumption (ignoring neglegible current from ICs):
