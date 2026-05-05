@@ -63,7 +63,7 @@ TP4056 Micro-USB Li-ion charger 1A with Li-ion protection circuit ([link](https:
 <img width="1500" height="1500" alt="image" style="width:35%" src="https://github.com/user-attachments/assets/9e2c4fdd-06dc-46b1-b8ac-827cfa8e712d" />
 
 # Schematic
-<img src="images/schematic.svg" alt="schematic.svg" width="100%"/>
+<img src="Schematic.svg" alt="Schematic.svg" width="100%"/>
 
 # PCB
 PCB files:
